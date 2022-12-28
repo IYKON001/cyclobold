@@ -1,0 +1,33 @@
+/* div{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 40px;
+    width: 50%;
+    height: 50%;
+} */
+/* .on{
+    border:1px solid black;
+    margin: 50px;
+    padding: 50px;
+    width: 50%;
+    height:40vh;
+    position: relative;
+}
+.iyk{
+    border:1px solid black;
+    margin: 50px;
+    padding: 40px;
+    width: 50% ;
+    height: 20vh
+    position: absolute; 
+} */
+#wrapper{
+    background-color: gray;
+    width: 100%;
+}
+nav{
+    border:.2em solid green;
+    background-color: greenyellow;
+    width:100vw;
+    
+}

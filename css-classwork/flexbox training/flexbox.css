@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    align-self: space-between;
+    align-items: center;
+    height: 10vh;
+}
+nav{
+    /* background-color: red; */
+    display: flex;
+    /* width: 50%; */
+    flex: 3;
+    justify-content: space-between; 
+}
+figure{
+    /* background-color: yellow; */
+    flex: 1;
+}
+.ul{
+    display: flex;
+    gap:2em;
+    
+}
+.ul>li{
+    /* margin-left: 2em; */
+    
+}
+.ul>li>a{
+    text-decoration: none;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    gap: 35%;
+    /* background-color: yellow */
+}
+.apple{
+    border: 1px solid black;
+    width: 487%;
+    height:100vh;
+}
+#dig{
+    border: 1px solid black;
+    width: 280%;
+    height:50vh; 
+}
+#advert{
+    border: 1px solid black;
+    width: 280%;
+    height:50vh;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    align-self: space-between;
+    align-items: center;
+    height: 10vh;
+    /* position: fixed; */
+}
+#container{
+    display: flex;
+    flex: 3;
+}
+#quicklinks{
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+    align-self: center; 
+}
+.sir{
+    display: flex;
+    gap:2em;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+body{
+    width: 90%;
+    max-height: 70vh;
+    background-color: rgb(39, 39, 51);
+}
+.container{
+    width: 60%;
+    margin: 3em auto;
+}
+.portfolio{
+    background-color: rgb(72, 100, 100);
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 8px 10px 10px 20px rgb(116, 111, 111);
+}
+img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+    height: 100%
+}
+.text{
+    padding-left: 10px;
+}
+h3{
+    padding: 10px;
+}
+hr{
+    width: 100%;
+}
+i{
+    padding: 10px;
+    font-size: 20px;
+}
+p{
+    font-weight: 600;
+}
+button{
+    padding:1.5em 3em;
+    background-color: brown;
+}
+button :hover{
+    background-color: blue; 
+}

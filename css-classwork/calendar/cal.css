@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#col{
+    padding: 50px;
+     /* background-color: aqua; */
+     background-image:radial-gradient(rgb(199, 140, 62),rgb(15, 15, 21) );
+     text-align: center;
+     font-family: sans-serif;
+     color: black;
+    
+}
+table tr th{
+    background-color: rgb(199, 140, 62);
+    padding: 10px;
+    animation-name: co;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+}
+@keyframes co {
+    from{background-color: burlywood;}
+    to{background-color: rgb(28, 22, 58);}
+}
+@keyframes col {
+    0%{background-color: rgb(39, 39, 80);}
+    25%{background-color: rgb(95, 50, 50);}  
+    50%{background-color: rgb(37, 68, 37);}
+    75%{background-color: rgb(55, 55, 27);}
+    100%{background-color: rgb(39, 39, 80);}
+
+
+}
+table tr td{
+    padding: 30px
+}
+table{
+    width: 100%;
+    text-align: center ;
+}
+.sha>:hover{
+    color: b;
+    animation-name: col;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}

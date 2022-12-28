@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATION</title>
+    <style>
+         *{
+                padding: 0;
+                margin: 0;
+                box-sizing:border-box;
+            }
+        #op{
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            /* background-color: red; */
+            animation-name: rita;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-delay: 0ms;
+            animation-delay: -0s;
+            animation-timing-function: ease-in-out;
+            /* animation-fill-mode: both; */
+            /* visibility: none; */
+            text-align: center;
+            top: 10%;
+            display: flex;
+            
+        }
+        body{
+            /* background: radial-gradient(grey,red); */
+            background-color: gray;
+        
+        }
+        #all{
+            background-color: aquamarine;
+            height: 45vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+
+            
+        }
+        .div1{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: red;
+            animation: mom 3s infinite ease-in-out;
+            animation-delay: 0ms;
+            animation-fill-mode: both;
+            position: relative;
+        }
+        .div2{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: blue;
+            animation: mom 3s infinite ease-in-out;
+            animation-delay: 0ms;
+            animation-fill-mode: both;
+            position: relative;
+        }
+        .div3{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: green;
+            animation: mom 3s infinite ease-in-out;
+            animation-delay: 0ms;
+            animation-fill-mode: both;
+            position: relative;
+        }
+        .div4{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: rgb(255, 0, 234);
+            animation: mom 3s infinite ease-in-out;
+            animation-delay: 0ms;
+            animation-fill-mode: both;
+            position: relative;
+        }
+        .div5{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: black;
+            animation: mom 3s infinite ease-in-out;
+            animation-delay: 0ms;
+            animation-fill-mode: both;
+            position: absolute;
+        }
+        .soup{
+            height: 8vh;
+            width: 100vw;
+            border: 1px solid black;
+            border-radius: 70%;
+            border-top: rgba(0, 0, 0, 0) ;
+            border-left: rgba(0, 0, 0, 0);
+            border-right: rgba(0, 0, 0, 0);
+            margin-top: 15%;
+            position: absolute;
+        }
+        #blink{
+            width: 100px;
+            height: 100px;
+            animation: blinking 1s infinite ease-in-out;
+            border: 1px solid black;
+            margin-top: 10%;
+            animation-duration: 1s;
+            /* display: flex; */
+        }
+        @keyframes blinking{
+            0% {background-color: red;}
+            25% {background-color: yellow;}
+            50% {background-color: blue;}
+
+        }
+        @keyframes rita {
+            0% {background-color: red;}
+            25% {background-color: yellow;}
+            50% {background-color: blue;}
+        }
+        @keyframes mom {
+            0%{top: 0vh; left:0vw;  color: yellow;}
+            25%{top: 0vh; left:10vw;  color: red;}
+            50%{top: 30vh; left:10vw;  color: blue;}
+            75%{top: 30vh; left:0vw;  color: green;}
+           100%{top:0vh;left:0vw; color: orange;}
+        }
+    </style>
+</head>
+<body>
+    <div id="op">
+        first
+    </div>
+    <div id="blink">
+
+    </div>
+    <div id="all">
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+    <div class="div5"></div>
+    <div class="soup"></div>
+    </div>
+
+    
+</body>
+</html>
+

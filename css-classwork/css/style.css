@@ -1,0 +1,48 @@
+h1{
+    color:black;
+    background-color:rgb(36, 34, 146); 
+    font-size: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 70%;
+    margin: 100px;
+    padding:80px;
+}
+.mf{
+    /* display: flex; */
+    text-decoration: none;
+    margin-left: 36%;
+}
+.mf li{
+    display: inline;
+}
+h1 :hover{
+    background-color: red;
+
+}
+h2{
+    color:black;
+    background-color:rgb(36, 34, 146); 
+    max-width: fit-content;
+    font-size: 40px;
+    border: 1px solid black;
+}
+body{
+    background-color: grey;
+}
+strong{
+    color: blue;
+}
+li:first-child{
+    color:brown;
+}
+li:nth-child(3) a{
+    color:green;
+}
+
+
+
+
+
+

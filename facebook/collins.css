@@ -1,0 +1,62 @@
+fieldset{
+    width: 25%;
+    margin-top: -20%;
+    margin-left: 55%;
+    border-radius: 2%;
+    background-color: white;
+    padding-right: 2%;
+   
+}
+body{
+    background-color: #bac8e630;
+    margin-top: 15%;
+}
+fieldset li input {
+    padding: 5%;
+    margin: 5%;
+    width: 83%;
+    display: block;
+}
+fieldset li :hover{
+   border-color: rgba(0, 0, 255, 0.569);
+}
+fieldset .rom input[type="login"]{
+    background-color: #115beead;
+    /* border-radius: 10%; */
+    color: white;
+}
+fieldset .op input[type="create"]{
+    background-color: rgba(48, 161, 46, 0.782);
+    width: 10vw;
+    margin-left: 25%;
+    border-radius: 6%;
+}
+fieldset .dot{
+    margin-left: 29%;
+    font-size: larger;
+}
+fieldset .dot a {
+    text-decoration: none;
+}
+fieldset .dot a :hover{
+    text-decoration: underline;
+}
+#container #null{
+   margin-left: 20%;
+   font-size: x-large;
+}
+#container #null h1{
+    color: #2e6bf1;
+    font-size: 60px;
+    font-family:  Tahoma;
+}
+.mum{
+    margin-left: 58%;
+}
+.mum a {
+    text-decoration: none;
+    color: black;
+}
+.mum a:hover{
+    text-decoration: underline;
+}

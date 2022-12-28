@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+           /* background-color: rgba(0, 0, 0, 0.787); */
+           background: rgba(10, 34, 42, 0.592);
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           height: 100vh;
+        }
+        .container{
+            position: relative;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(45deg,transparent,transparent 45%, rgb(255, 0, 68));
+            animation: animate 2s linear infinite;
+        }
+        @keyframes animate
+        {
+            0%{
+                transform: rotate(0deg);
+                filter: hue rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+                filter: hue rotate(0deg);
+            }
+        }
+        .container:before{
+            content: '';
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            right: 6px;
+            bottom: 6px;
+            border-radius: 50%;
+            background: blue;
+            z-index: 1000;
+        }
+        .container:after{
+            content: '';
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background: linear-gradient(45deg,transparent,transparent 45%, red);
+            border-radius: 50%;
+            background: blue;
+            z-index: 1000;
+            z-index: 1;
+            filter: blur(30px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+</body>
+</html>
